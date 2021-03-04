@@ -1,0 +1,68 @@
+body {
+  position: relative;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  background-image: linear-gradient(to bottom right, rgba(173,255,204,1), rgba(255,254,173,1));
+  z-index:-2;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+
+.fancy {
+  text-align: center;
+  margin: 0 auto;
+  padding: 4%;
+
+  border: 0.5em solid powderblue;
+
+  width: 30%;
+  height: auto;
+
+  border-radius: 50px;
+
+  background-color: #eadb99;
+  background-image:linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                   linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+                   linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                   linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+                   linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+                   linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6be 70%),
+                   linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6be 80%);
+}
+
+.picture {
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  border-radius: 50px;
+
+  width: 100%;
+  height: auto;
+}
+
+.resized {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  border: 0.4em solid gray;
+  background-color: white;
+}
+
+* {
+  font-family: monospace, sans-serif;
+}

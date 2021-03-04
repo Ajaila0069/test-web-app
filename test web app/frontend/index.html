@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/homestyle.css">
+    <meta charset="utf-utf-8">
+    <title>MoF API Frontend</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Array.from,Promise,Symbol,Object.setPrototypeOf,Object.getOwnPropertySymbols,Set"></script>
+    <script src="https://cdn.jsdelivr.net/npm/superagent"></script>
+    <script defer src="index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="fancy">
+        <h1>Test Frontend</h1>
+      </div>
+      <br>
+      <div class="fancy">
+        <form id="form">
+          Character: <input type="text" name="char" value="sanae"><br>
+        </form>
+        <br>
+        <br>
+        <button id="submit" type="button">Submit</button>
+      </div>
+      <br><br>
+      <div class="fancy" id="pic-contain" style="display:none">
+        <div class="picture" id="picture" style="display:none">
+          <!--picture here-->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
